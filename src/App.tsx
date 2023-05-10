@@ -1,4 +1,5 @@
-import { HangmanDrawing } from "./HangmanDrawing copy 2"
+import { HangmanDrawing } from "./HangmanDrawing"
+import { HangmanWord } from "./HangmanWord"
 
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
         Winner Loser
       </div>
       <HangmanDrawing />
+      <HangmanWord />
     </div>
   )
 }
