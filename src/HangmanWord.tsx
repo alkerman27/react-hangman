@@ -1,4 +1,4 @@
-const word = "hello"
+const word = "Utilities"
 
 export function HangmanWord() {
   return (

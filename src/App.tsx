@@ -1,5 +1,6 @@
 import { HangmanDrawing } from "./HangmanDrawing"
 import { HangmanWord } from "./HangmanWord"
+import { Keyboard } from "./Keyboard"
 
 
 const App = () => {
@@ -10,6 +11,10 @@ const App = () => {
       </div>
       <HangmanDrawing />
       <HangmanWord />
+      <div className="self-stretch">
+
+      <Keyboard />
+      </div>
     </div>
   )
 }
