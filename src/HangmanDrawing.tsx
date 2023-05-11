@@ -14,10 +14,10 @@ const LEFT_ARM = (
 )
 
 const RIGHT_LEG = (
-  <div className="w-24 h-2.5 bg-black absolute top-44 -right-20 rotate-45 origin-bottom-left" />
+  <div className="w-24 h-2.5 bg-black absolute top-[182px] -right-[86.5px] rotate-45 origin-bottom-left" />
 )
 const LEFT_LEG = (
-  <div className="w-24 h-2.5 bg-black absolute top-44 right-0 -rotate-45 origin-bottom-right" />
+  <div className="w-24 h-2.5 bg-black absolute top-[182px] right-0 -rotate-45 origin-bottom-right" />
 )
 
 const BODY_PARTS = [HEAD, BODY, RIGHT_ARM, LEFT_ARM, RIGHT_LEG, LEFT_LEG]
