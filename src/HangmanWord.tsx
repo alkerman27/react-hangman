@@ -1,5 +1,7 @@
 const word = "Utilities"
 
+
+
 export function HangmanWord() {
   return (
     <div className="flex gap-1 text-8xl font-bold uppercase font-mono">
